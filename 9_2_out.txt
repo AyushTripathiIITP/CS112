@@ -1,0 +1,47 @@
+//test case1
+P = What fun it is to ride and sing a sleighing song tonight
+Q = fun and sing
+R = song
+output = The pattern Q*R is not found in the P
+
+
+//test case2
+P = What fun it is to ride and sing a sleighing song tonight
+Q = it is to rid
+R = e and s
+output = The pattern Q*R is found in the P at index 9
+
+
+//test case3
+P = What fun it is to ride and sing a sleighing song tonight
+Q = night
+R =
+output = The pattern is not found in the P
+
+
+//test case4
+P = What fun it is to ride and sing a sleighing song tonight
+Q = 
+R = tonight
+output = The pattern is not found in the P
+
+
+//test case5
+P = What fun it is to ride and sing a sleighing song tonight
+Q = to ride and sing
+R = it is
+output = The pattern is not found in the P
+
+
+//test case6
+P = What fun it is to ride and sing a sleighing song tonight
+Q = sleighing
+R = hi
+output = The pattern is not found in the P
+
+
+//test case7
+P = What fun it is to ride and sing a sleighing song tonight
+Q = g
+R = g
+output = The pattern is not found in the P
